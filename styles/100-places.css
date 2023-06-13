@@ -1,0 +1,104 @@
+.places {
+    padding-top: 20px;
+  }
+  
+  .places h1 {
+    font-size: 30px;
+  }
+  
+  .places .place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+  }
+  
+  .places .place h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .places .place .price_by_night {
+    font-color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    align-self: flex-end;
+    margin-top: -30px;
+    margin-right: 20px;
+    border-radius: 4px;
+  }
+  
+  .places .place .information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+  }
+  
+  .places .place .information > div {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .places .place .information > div span {
+    margin-top: 5px;
+  }
+  
+  .places .place .information .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5A5F;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .places .place .user {
+    margin-left: auto;
+  }
+  
+  .places .place .description {
+    margin-top: 20px;
+  }
+  
+  .places .place .amenities {
+    margin-top: 40px;
+  }
+  
+  .places .place .amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  
+  .places .place .amenities ul {
+    list-style: none;
+  }
+  
+  .places .place .reviews {
+    margin-top: 40px;
+  }
+  
+  .places .place .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  
+  .places .place .reviews ul {
+    list-style: none;
+  }
+  
+  .places .place .reviews h3 {
+    font-size: 14px;
+  }
+  
+  .places .place .reviews p {
+    font-size: 12px;
+  }
