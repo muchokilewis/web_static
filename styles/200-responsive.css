@@ -1,0 +1,56 @@
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    /* Header */
+    .logo {
+      height: 60px;
+      background-size: contain;
+    }
+  
+    /* Filters */
+    .filters {
+      flex-direction: column;
+    }
+  
+    .locations,
+    .amenities {
+      width: 100%;
+      border-right: none;
+      margin-bottom: 20px;
+    }
+  
+    .popover {
+      width: 100%;
+    }
+  
+    .popover > li > h2 {
+      font-size: 14px;
+    }
+  
+    .popover > li > ul {
+      padding-left: 20px;
+    }
+  
+    .search-button {
+      width: 100%;
+    }
+  
+    /* Places */
+    .places .place {
+      width: 100%;
+    }
+  
+    /* Reviews */
+    .reviews li {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #DDDDDD;
+    }
+  
+    .reviews h3 {
+      font-size: 12px;
+    }
+  
+    .reviews p {
+      font-size: 10px;
+    }
+  }
